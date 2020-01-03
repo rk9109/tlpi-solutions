@@ -1,2 +1,7 @@
+# prerequisites
 *.d
+
+# object files
 *.o
+*.obj
+*.elf
