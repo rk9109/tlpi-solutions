@@ -14,4 +14,4 @@ $ ./reboot
 LINUX_REBOOT_MAGIC1 = 0xfee1dead
 LINUX_REBOOT_MAGIC2 = 0x28121969
 ```
-December 28, 1969 is Linux Torvald's birth date!
+December 28, 1969 is Linux Torvalds' birth date!
