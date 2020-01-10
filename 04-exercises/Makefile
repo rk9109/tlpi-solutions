@@ -13,5 +13,8 @@ hole: hole.o $(DEP)
 cp: cp.o $(DEP)
 	$(CC) -o cp cp.o $(DEP)
 
+format:
+	clang-format -i -style=WebKit *.c
+
 clean:
 	rm -rf tee hole cp *.o
