@@ -103,7 +103,7 @@ The output file contains the string `Hello,`.
 ```C
 write(fd2, " world", 6);
 ```
-Since `fd2` is a duplicate of `fd1`, the 2 file descriptors share the same file offset. As a result, the ouput file is not overwritten, and contains the string `Hello, world`.
+Since `fd2` is a duplicate of `fd1`, the 2 file descriptors share the same file offset. As a result, the output file is not overwritten, and contains the string `Hello, world`.
 ```C
 write(fd1, "HELLO,", 6);
 ```
